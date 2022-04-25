@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.activity.login.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:letterSpacing="0.0265"
+            android:text="@string/enter_the_6_digit_code_sent_to_you_at"
+            android:textColor="#8e8e93"
+            android:gravity="center"
+            android:layout_marginTop="40dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:layoutDirection="ltr">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:letterSpacing="0.0265"
+                android:text="+"
+                android:layoutDirection="ltr"/>
+
+            <TextView
+                android:id="@+id/CountryCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:letterSpacing="0.0265"
+                android:layoutDirection="ltr"/>
+
+
+            <TextView
+                android:id="@+id/MobNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:letterSpacing="0.0265"
+                android:layoutDirection="ltr"/>
+
+        </LinearLayout>
+
+
+
+
+        <com.mukesh.OtpView
+            android:id="@+id/otp_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:layout_marginTop="47dp"
+            android:layout_gravity="center"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            app:itemCount="6"
+            app:viewType="line"/>
+
+
+
+        <TextView
+            android:id="@+id/MobNumberStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/red"
+            android:gravity="center"/>
+
+        <ProgressBar
+            android:id="@+id/MobNumberProgressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_above="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f1f1f1"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="18dp"
+        android:background="#f8f8f8"
+        android:orientation="horizontal">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/linear">
+
+            <Button
+                android:id="@+id/ResendCodeBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="left"
+                android:background="@color/transperent"
+                android:gravity="center"
+                android:text="@string/resend_code"
+                android:textColor="@color/blue" />
+
+            <Button
+                android:id="@+id/NextBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@color/transperent"
+                android:gravity="center"
+                android:text="@string/next"
+                android:textColor="@color/black" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

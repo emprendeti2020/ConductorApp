@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Motorista de ônibus</string>
+    <string name="splash_text">DRIVER APP</string>
+    <string name="enter_your_mobile_number">Digite seu número de celular</string>
+    <string name="phone">telefone</string>
+    <string name="next">Próximo</string>
+
+
+    <string name="nav_header_desc">Cabeçalho de navegação</string>
+    <string name="menu_home">Localização do ônibus escolar</string>
+    <string name="menu_parentContacts">Pais</string>
+    <string name="menu_logout">Sair</string>
+    <string name="menu_about">Sobre</string>
+    <string name="app_version">versão 1.2</string>
+    <string name="menu_shareApp">Compartilhar</string>
+    <string name="credits">Créditos</string>
+    <string name="enter_the_6_digit_code_sent_to_you_at">Digite o código de 6 dígitos enviado a você em</string>
+    <string name="resend_code">Reenviar código</string>
+
+    <string name="tel_number_not_exist">Este número de telefone não existe. Entre em contato com sua escola para adicioná-lo.</string>
+    <string name="error_in_tel">Erro no número de telefone digitado.</string>
+    <string name="unable_to_connect_server">Não foi possível conectar ao servidor. Por favor, tente novamente mais tarde</string>
+    <string name="unexpected_error">Erro inesperado. Entre em contato conosco se o erro persistir.</string>
+    <string name="verification_code_not_correct">O código de verificação não está correto. Por favor, tente novamente.</string>
+    <string name="error_in_verification_code">Erro no código de verificação inserido.</string>
+    <string name="call_parent_alert_title">Chamando pai</string>
+    <string name="are_you_sure_call_parent">Tem certeza de que deseja ligar para esse pai?</string>
+    <string name="go_setting_enable_call">Por favor, vá para Configurações e conceda acesso telefônico a este aplicativo para fazer chamadas.</string>
+    <string name="logout">Sair</string>
+    <string name="are_you_sure">Você tem certeza?</string>
+    <string name="gps_seems_disabled">Seu GPS parece estar desativado. Deseja ativá-lo?</string>
+    <string name="turn_gps_on_to_continue">Por favor, ligue o GPS para continuar.</string>
+    <string name="grant_access_location_settings">Vá para Configurações e conceda acesso ao local para este aplicativo para continuar.</string>
+    <string name="share_body">I want to share with you this fantastic school bus tracking app</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_tracking">No Tracking</string>
+    <string name="tracking_on">Tracking ON</string>
+    <string name="checked_in_string">checked in the bus</string>
+    <string name="checked_out_string">saiu do ônibus</string>
+    <string name="sms_quota_exceeded">SMS quota has been exceeded</string>
+
+</resources>

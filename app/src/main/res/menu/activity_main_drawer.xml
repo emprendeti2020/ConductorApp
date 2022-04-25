@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/location"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_parentContacts"
+            android:icon="@drawable/parents"
+            android:title="@string/menu_parentContacts" />
+
+        <item
+            android:id="@+id/nav_childList"
+            android:icon="@drawable/child_list"
+            android:title="@string/child_list" />
+
+        <item
+            android:id="@+id/nav_shareApp"
+            android:icon="@drawable/share"
+            android:title="@string/menu_shareApp" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="@string/menu_about" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/menu_logout" />
+    </group>
+
+<!--    <item android:title="Communicate">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/ic_menu_share"-->
+<!--                android:title="@string/menu_share" />-->
+<!--            <item-->
+<!--                android:id="@+id/nav_send"-->
+<!--                android:icon="@drawable/ic_menu_send"-->
+<!--                android:title="@string/menu_send" />-->
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.creativeapps.schoolbusdriver.ui.activity.login.enterPhoneNumber.EnterPhoneNumberFragment"
+        tools:layout="@layout/fragment_activation_code" >
+        <action
+            android:id="@+id/action_navigation_home_to_activation_code"
+            app:destination="@id/navigation_activation_code"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_activation_code"
+        android:name="com.creativeapps.schoolbusdriver.ui.activity.login.activationCode.ActivationCodeFragment"
+        tools:layout="@layout/fragment_activation_code" />
+
+</navigation>
+

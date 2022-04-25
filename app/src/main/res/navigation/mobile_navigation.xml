@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.creativeapps.schoolbusdriver.ui.activity.main.map.MapFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_parentContacts"
+        android:label="@string/menu_parentContacts"
+        android:name="com.creativeapps.schoolbusdriver.ui.activity.main.contacts.ParentsContactsFragment"
+        tools:layout="@layout/fragment_parent_contacts" />
+
+    <fragment
+        android:id="@+id/nav_childList"
+        android:label="@string/child_list"
+        android:name="com.creativeapps.schoolbusdriver.ui.activity.main.childList.ChildListFragment"
+        tools:layout="@layout/fragment_child_list" />
+
+    <fragment
+        android:id="@+id/nav_shareApp"
+        android:label="@string/menu_shareApp"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:label="@string/menu_about"
+        android:name="com.creativeapps.schoolbusdriver.ui.activity.main.about.AboutFragment"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:label="@string/menu_logout" />
+
+</navigation>

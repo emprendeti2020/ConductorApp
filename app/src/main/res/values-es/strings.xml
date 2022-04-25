@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Conductor de autobús</string>
+    <string name="splash_text">APLICACIÓN DEL CONDUCTOR</string>
+    <string name="enter_your_mobile_number">Ingrese su numero celular</string>
+    <string name="phone">Teléfono</string>
+    <string name="next">próximo</string>
+
+
+    <string name="nav_header_desc">Encabezado de navegación</string>
+    <string name="menu_home">Ubicación del autobús escolar</string>
+    <string name="menu_parentContacts">Padres</string>
+    <string name="menu_logout">Cerrar sesión</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="app_version">versión 1.2</string>
+    <string name="menu_shareApp">Compartir</string>
+    <string name="credits">Créditos</string>
+    <string name="enter_the_6_digit_code_sent_to_you_at">Ingrese el código de 6 dígitos que se le envió a</string>
+    <string name="resend_code">Reenviar codigo</string>
+
+    <string name="tel_number_not_exist">Este número de teléfono no existe. Por favor, póngase en contacto con su escuela para agregarlo.</string>
+    <string name="error_in_tel">Error en el número de teléfono ingresado.</string>
+    <string name="unable_to_connect_server">No es posible conectarse al servidor. Por favor, inténtelo de nuevo más tarde</string>
+    <string name="unexpected_error">Error inesperado. Por favor contáctenos si el error persiste.</string>
+    <string name="verification_code_not_correct">El código de verificación no es correcto. Inténtalo de nuevo.</string>
+    <string name="error_in_verification_code">Error en el código de verificación ingresado.</string>
+    <string name="call_parent_alert_title">Llamar a los padres</string>
+    <string name="are_you_sure_call_parent">¿Seguro que quieres llamar a este padre?</string>
+    <string name="go_setting_enable_call">Vaya a Configuración y otorgue acceso de teléfono de llamada para esta aplicación para realizar llamadas.</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="are_you_sure">¿Estás seguro?</string>
+    <string name="gps_seems_disabled">Su GPS parece estar deshabilitado, ¿quiere habilitarlo?</string>
+    <string name="turn_gps_on_to_continue">Encienda el GPS para continuar.</string>
+    <string name="grant_access_location_settings">Vaya a Configuración y otorgue acceso a la ubicación para esta aplicación para continuar.</string>
+    <string name="share_body">I want to share with you this fantastic school bus tracking app</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_tracking">No Tracking</string>
+    <string name="tracking_on">Tracking ON</string>
+    <string name="checked_in_string">se registró en el autobús</string>
+    <string name="checked_out_string">salió del autobús</string>
+    <string name="sms_quota_exceeded">SMS quota has been exceeded</string>
+</resources>

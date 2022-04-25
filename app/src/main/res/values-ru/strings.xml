@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Водитель автобуса</string>
+    <string name="splash_text">Драйвер приложение</string>
+    <string name="enter_your_mobile_number">введите свой номер мобильного</string>
+    <string name="phone">Телефон</string>
+    <string name="next">следующий</string>
+
+
+    <string name="nav_header_desc">Заголовок навигации</string>
+    <string name="menu_home">Расположение школьного автобуса</string>
+    <string name="menu_parentContacts">Родители</string>
+    <string name="menu_logout">Выйти</string>
+    <string name="menu_about">Около</string>
+    <string name="app_version">версия 1.2</string>
+    <string name="menu_shareApp">Поделиться</string>
+    <string name="credits">кредиты</string>
+    <string name="enter_the_6_digit_code_sent_to_you_at">Введите 6-значный код, отправленный вам по адресу</string>
+    <string name="resend_code">Отправить код еще раз</string>
+
+    <string name="tel_number_not_exist">Этот номер телефона не существует. Пожалуйста, свяжитесь с вашей школой, чтобы добавить его.</string>
+    <string name="error_in_tel">Ошибка в введенном номере телефона.</string>
+    <string name="unable_to_connect_server">Невозможно подключиться к серверу. Пожалуйста, попробуйте позже</string>
+    <string name="unexpected_error">Неожиданная ошибка. Пожалуйста, свяжитесь с нами, если ошибка не устранена.</string>
+    <string name="verification_code_not_correct">Код подтверждения неверен. Пожалуйста, попробуйте еще раз.</string>
+    <string name="error_in_verification_code">Ошибка во введенном коде подтверждения.</string>
+    <string name="call_parent_alert_title">Звонить родителю</string>
+    <string name="are_you_sure_call_parent">Вы уверены, что хотите позвонить этому родителю?</string>
+    <string name="go_setting_enable_call">Пожалуйста, перейдите в Настройки и предоставьте доступ к телефону для этого приложения, чтобы совершать звонки.</string>
+    <string name="logout">Выйти</string>
+    <string name="are_you_sure">Вы уверены?</string>
+    <string name="gps_seems_disabled">Ваш GPS, кажется, отключен, вы хотите включить его?</string>
+    <string name="turn_gps_on_to_continue">Пожалуйста, включите GPS, чтобы продолжить.</string>
+    <string name="grant_access_location_settings">Пожалуйста, перейдите в Настройки и предоставьте доступ к местоположению для этого приложения, чтобы продолжить.</string>
+    <string name="share_body">I want to share with you this fantastic school bus tracking app</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_tracking">No Tracking</string>
+    <string name="tracking_on">Tracking ON</string>
+    <string name="checked_in_string">зарегистрировал автобус</string>
+    <string name="checked_out_string">выписался из автобуса</string>
+    <string name="sms_quota_exceeded">SMS quota has been exceeded</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#ffc600</color>
+    <color name="primaryLightColor">#fff94f</color>
+    <color name="primaryDarkColor">#c79600</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="colorAccentRed">#ff3b30</color>
+    <color name="colorAccent">#0336ff</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="transperent">#00000000</color>
+    <color name="blue">#405499</color>
+    <color name="red">#ff3b30</color>
+    <color name="green">#00ff00</color>
+
+    <color name="dark_bg_clolor">#E6E6E6</color>
+
+    <color name="contact_name">#333333</color>
+    <color name="contact_number">#8c8c8c</color>
+</resources>

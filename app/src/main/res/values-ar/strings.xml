@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">سائق الحافلة</string>
+    <string name="splash_text">تطبيق سائق الحافلة</string>
+    <string name="enter_your_mobile_number">أدخل رقم هاتفك المحمول</string>
+    <string name="phone">هاتف</string>
+    <string name="next">التالى</string>
+
+
+    <string name="nav_header_desc">رأس الملاحة</string>
+    <string name="menu_home">موقع الحافلة المدرسية</string>
+    <string name="menu_parentContacts">آباء</string>
+    <string name="menu_logout">تسجيل خروج</string>
+    <string name="menu_about">حول</string>
+    <string name="menu_shareApp">شارك</string>
+    <string name="app_version">الإصدار 1.5</string>
+    <string name="credits">حقوق الملكيه</string>
+    <string name="enter_the_6_digit_code_sent_to_you_at">أدخل الكود المكون من 6 أرقام والمرسلة إليك على</string>
+    <string name="resend_code">إعادة إرسال الرمز</string>
+
+    <string name="tel_number_not_exist">هذا رقم الهاتف غير موجود. يرجى الاتصال بمدرستك لإضافته.</string>
+    <string name="error_in_tel">خطأ في رقم الهاتف الذي تم إدخاله.</string>
+    <string name="unable_to_connect_server">غير قادر على الاتصال بالخادم. الرجاء معاودة المحاولة في وقت لاحق</string>
+    <string name="unexpected_error">خطأ غير متوقع. يرجى الاتصال بنا إذا استمر الخطأ.</string>
+    <string name="verification_code_not_correct">رمز التحقق غير صحيح. حاول مرة اخرى.</string>
+    <string name="error_in_verification_code">خطأ في رمز التحقق الذي تم إدخاله.</string>
+    <string name="call_parent_alert_title">مكالمةالوالد</string>
+    <string name="are_you_sure_call_parent">هل أنت متأكد أنك تريد الاتصال بهذا الوالد؟</string>
+    <string name="go_setting_enable_call"> يرجى الانتقال إلى الإعدادات ومنح الوصول عبر الهاتف للاتصال بهذا التطبيق من أجل إجراء مكالمات.</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="are_you_sure">هل أنت واثق؟</string>
+    <string name="gps_seems_disabled">يبدو أن GPS معطّل ، هل تريد تمكينه؟</string>
+    <string name="turn_gps_on_to_continue">يرجى تشغيل GPS من أجل المتابعة.</string>
+    <string name="grant_access_location_settings">يرجى الانتقال إلى الإعدادات ومنح الوصول إلى الموقع لهذا التطبيق من أجل المتابعة.</string>
+    <string name="share_body">أريد أن أشاطركم هذا التطبيق الرائع لتتبع الحافلة المدرسية</string>
+
+    <string name="child_list">سجل التلاميذ</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_tracking">No Tracking</string>
+    <string name="tracking_on">Tracking ON</string>
+    <string name="checked_in_string">سجل في الحافلة</string>
+    <string name="checked_out_string">خرج من الحافلة</string>
+    <string name="sms_quota_exceeded">SMS quota has been exceeded</string>
+
+</resources>
